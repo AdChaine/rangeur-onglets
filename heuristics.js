@@ -22,13 +22,13 @@ function matchesHost(host, pattern) {
   return host === pattern || host.endsWith('.' + pattern);
 }
 
-// Domaine "racine" approximatif : maisonscompere.lu, thomas-piron.fr…
+// Domaine "racine" approximatif : boutique.example.lu, agence-durand.fr…
 function rootDomain(host) {
   const parts = host.replace(/^www\./, '').split('.');
   return parts.length <= 2 ? parts.join('.') : parts.slice(-2).join('.');
 }
 
-// Nom lisible d'un domaine : "thomas-piron.lu" -> "Thomas Piron"
+// Nom lisible d'un domaine : "agence-durand.lu" -> "Agence Durand"
 function prettyDomain(root) {
   const label = root.split('.')[0].replace(/[-_]/g, ' ');
   return label.replace(/\b\w/g, c => c.toUpperCase());

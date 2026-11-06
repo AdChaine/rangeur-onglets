@@ -4,7 +4,7 @@ Merci de votre intérêt ! Les issues, idées et pull requests sont les bienvenu
 
 ## Signaler un bug ou proposer une idée
 
-Ouvrez une [issue](https://github.com/AdSim-SRL/rangeur-onglets/issues/new/choose) avec le modèle adapté. Pour un bug, indiquez toujours :
+Ouvrez une [issue](https://github.com/AdChaine/rangeur-onglets/issues/new/choose) avec le modèle adapté. Pour un bug, indiquez toujours :
 
 - la version de Chrome (`chrome://version`) et votre système ;
 - l'état de l'IA affiché en haut de la fenêtre de l'extension (*IA locale prête*, *IA indisponible*…) ;
@@ -20,7 +20,7 @@ Une faille de sécurité ne se signale pas dans une issue publique : voir [SECUR
 Aucune installation : pas de dépendance, pas de compilation.
 
 ```bash
-git clone https://github.com/AdSim-SRL/rangeur-onglets.git
+git clone https://github.com/AdChaine/rangeur-onglets.git
 ```
 
 1. `chrome://extensions` → **Mode développeur** → **Charger l'extension non empaquetée** → le dossier cloné.

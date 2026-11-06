@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Merci de prendre le temps de signaler un problème. **Ne collez pas la liste de vos onglets ou favoris** : elle contient souvent des informations privées.
-        Une faille de sécurité se signale en privé : voir [SECURITY.md](https://github.com/AdSim-SRL/rangeur-onglets/blob/main/SECURITY.md).
+        Une faille de sécurité se signale en privé : voir [SECURITY.md](https://github.com/AdChaine/rangeur-onglets/blob/main/SECURITY.md).
   - type: dropdown
     id: feature
     attributes:

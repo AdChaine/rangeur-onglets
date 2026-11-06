@@ -37,7 +37,7 @@ Rangeur d'onglets fait le tri à votre place :
 L'extension n'est pas (encore) sur le Chrome Web Store. Installation en 1 minute :
 
 ```bash
-git clone https://github.com/AdSim-SRL/rangeur-onglets.git
+git clone https://github.com/AdChaine/rangeur-onglets.git
 ```
 
 1. Ouvrez `chrome://extensions`.
@@ -145,4 +145,4 @@ Idées ouvertes : publication sur le Chrome Web Store, noms de groupes personnal
 
 ## Licence
 
-[MIT](LICENSE) © 2026 [AdSim](https://adsim.be)
+[MIT](LICENSE) © 2026 rangeur-onglets contributors

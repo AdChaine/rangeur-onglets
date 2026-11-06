@@ -9,7 +9,7 @@ const SYSTEM_PROMPT = `Tu ranges les onglets d'un navigateur en groupes.
 Regroupe par projet, client ou sujet de travail, pas seulement par site : des sites différents qui parlent du même client ou du même sujet vont ensemble.
 Règles :
 - Entre 3 et 10 groupes.
-- Nom de groupe court en français : 1 à 3 mots (ex. "Caro Confort", "Stripe", "Google Ads", "Immobilier LU").
+- Nom de groupe court en français : 1 à 3 mots (ex. "Client Dupont", "Stripe", "Google Ads", "Immobilier LU").
 - Chaque onglet apparaît dans un seul groupe au maximum.
 - Un onglet qui ne va avec aucun autre peut être laissé de côté.
 Réponds uniquement avec le JSON demandé, en utilisant les numéros d'onglets fournis.`;
